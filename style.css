@@ -26,8 +26,8 @@ p{
 span{
  font-size: 4rem;
 }
-.wrapper{
- margin: 2rem auto;
+.container{
+ margin: 6rem auto;
  align-items: center;
  text-align: center;
  justify-content: center;
