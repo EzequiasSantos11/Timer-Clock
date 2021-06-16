@@ -1,5 +1,5 @@
 # Timer Clock
-![alt text](./Cronometro/img/cronometro.png)
+
 
 By: Ezequias Santos
 <hr>
@@ -11,7 +11,7 @@ Aplicação criada com o intuíto de demonstrar minhas habilidades com HTML, CSS
 <br>
 ### Você pode acessar esta ferramenta de 2 formas
 <hr>
-1.Para usar normalmente "clique neste link".
+1.Para usar normalmente (clique neste link="https://timer-clock.vercel.app/").
 <br>
 2.Para Estudar o código (clone este repositório).<br>
 <br>
