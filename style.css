@@ -1,0 +1,88 @@
+*{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+body{
+ background-color: #121214;
+ color: white;
+ text-align: center;
+}
+h1{
+ color: white;
+ font-size: 6rem;
+ margin-bottom: .6rem;
+}
+h2{
+ color: white;
+ font-size: 2rem;
+ margin-bottom: .6rem;
+}
+p{
+ color: white;
+ font-size: 1.6rem;
+}
+span{
+ font-size: 4rem;
+}
+.wrapper{
+ margin: 2rem auto;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ width: 100%;
+ max-width: 990;
+}
+button{
+ font-size: 2rem;
+ margin: 1rem;
+ padding: .6rem;
+ border-radius: 1rem;
+ font-weight: 60;
+ cursor: pointer;
+ border: none;
+ background-color: rgb(6, 6, 82);
+ color: white;
+ font-weight: 100;
+}
+
+.View{
+ text-align: center;
+}
+.View label{
+ font-size: 1.4rem;
+ margin-right: 2.5rem;
+}
+.View label:nth-child(4){
+ margin-right: 0;
+}
+#btn-start:hover{
+ background-color: green;
+}
+#btn-stop:hover{
+ background-color: rgb(172, 172, 7);
+}
+#btn-reset:hover{
+ background-color: red;
+}
+/* Para telas menores à 521px */
+@media(max-width: 521px){
+ .container{
+  margin-top: 25%;
+  text-align: center;
+ }
+ h1{
+  font-size: 3rem;
+ }
+ h2{
+  font-size: 1rem;
+ }
+ p{
+  font-size: .7rem;
+ }
+ button{
+  margin-top: 3rem;
+  font-size: 1.5rem;
+ }
+}
