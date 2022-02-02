@@ -2,35 +2,53 @@
 <html lang="pt-br">
 
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <title>Timer clock</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Timer clock</title>
 </head>
 
 <body>
- <main class="container">
-  <h1>Cronometro</h1>
-  <h2>Um treino de JavaScript</h2>
-  <p>Por: Ezequias Santos</p>
-  <div class="View">
-   <div>
-    <span id="minuts">00</span>
-    <span>:</span>
-    <span id="seconds">00</span>
-    <span>:</span>
-    <span id="tens">00</span>
-   </div>
-   <label>Minuts</label>
-   <label>seconds</label>
-   <label>Tens</label>
-  </div>
-  <button id="btn-start">Start</button>
-  <button id="btn-stop">Pause</button>
-  <button id="btn-reset">Reset</button>
- </main>
- <script src="./scripts.js"></script>
+  <main class="container">
+    <img class="background" src="./img/background.jpg" alt="">
+    <header>
+      <h1>Ezequias Santos / Cronometro </h1>
+    </header>
+    <div class="wrapper">
+      <div class="info">
+        <h2>Um treino de JavaScript</h2>
+        <p>seja muito bem vindo(a)</p>
+      </div>
+      <div class="View">
+        <div>
+          <span id="minuts" class="time">00</span>
+          <span class="pont">:</span>
+          <span id="seconds" class="time">00</span>
+          <span class="pont">:</span>
+          <span id="tens" class="time">00</span>
+        </div>
+        <!-- <label>Minuts</label>
+        <label>seconds</label>
+        <label>Tens</label> -->
+      </div>
+      <div class="buttons">
+        <button id="btn-start" class="start">
+          <img src="./img/play-button-arrowhead.png" alt="start-button">
+          start
+        </button>
+        <button id="btn-stop">
+          <img src="./img/pause.png" alt="pause-button">
+          pause
+        </button>
+        <button id="btn-reset">
+          <img src="./img/reset.png" alt="reset-button">
+          reset
+        </button>
+      </div>
+    </div>
+  </main>
+  <script src="./scripts.js"></script>
 </body>
 
 </html>

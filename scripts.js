@@ -1,13 +1,18 @@
-// Declaração de variáveis que serão usadas na aplicação
+// Declaração de variáveis que serão usadas na aplicação.
+
+// Setando minutos, segundos e mili-segundos.
 var minuts = 00;
 var seconds = 00;
 var tens = 00;
-var start = document.querySelector("#btn-start");
+// Recuperando do DOM os elementos a serem modificados pelo JS.
 var appendMinuts = document.querySelector("#minuts");
 var appendTens = document.querySelector("#tens");
 var appendSeconds = document.querySelector("#seconds");
+// Recuperando do DOM os botões de interação do usuário.
+var start = document.querySelector("#btn-start");
 var stop = document.querySelector("#btn-stop");
 var reset = document.querySelector("#btn-reset");
+// Variável de tempo.
 var interval;
 
 // Botão start inicia a função principal
